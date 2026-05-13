@@ -1,0 +1,91 @@
+header {
+	background-color: #ADEBB3;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#icon img {
+	height: 50px;
+}
+
+#list ul {
+	list-style-type: none;
+	display: flex;
+
+}
+
+#list ul li {
+	margin-left: 10px;
+	margin-right: 350px;
+}
+
+#hero {
+	background-image: url(../image/cute-pokemon-pikachu-spring-pokemon-pokmon-japanese-video-game-movie-film-trading-cards-28-10-2024-1730183216-hd-wallpaper.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-content {
+	text-align: center;
+	max-width: 1200px;
+	color: #D5B60A;
+	font-family: chalkboard;
+}
+
+#hero h1 {
+	font-size: 80px;
+	margin-bottom: 20px;
+}
+
+#hero p {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+#hero button {
+	font-size: 30px;
+	padding: 30px 50px;
+	background-color: white;
+	border: none;
+	margin-bottom: 0px;
+}
+
+#origin {
+	background-color: lightyellow;
+	padding: 40px;
+}
+
+#origin h2 {
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.origin-image img {
+	max-width: 400px;
+	height: auto;
+}
+
+.origin-image {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.origin-text {
+	max-width: 2000px;
+}
+
+.origin-text h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
